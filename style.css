@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+
+.child-div{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    padding: 2%;
+    color: #31353bad;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: green;
+  }
+
+
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+    background: #f3f4f5;
+    
+    padding: 0px 32px;
+    border-bottom: 1px solid #f3f3f3;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    
+}
